@@ -15,7 +15,7 @@ void loan::getMonths(){
 	
 void loan::getRate(){
 		
-	cout << "What is the interest rate (APR)?\n";
+	cout << "What is the interest rate (APR as decimal, not percent)?\n";
 	cin >> rate; //Lets see if 'months' is within the scope of this method
 	
 	rate/=12;
